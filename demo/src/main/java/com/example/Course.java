@@ -1,15 +1,10 @@
 /**
  *  Exercise 1
  *  Course.java
- * This class contains the following fields:
- * course name, course description, department, time the course starts,
- * weekday the course is held on
- * This class should contain getters and setters for all its attributes.
- * This class has one constructor.
- * The class is able to undergo deep copy by implementing Cloneable interface
- * @author vuaivantrinhsjgmail.com
+ * @author Lam Vinh Vong
  *
  */
+package com.example;
 public class Course implements Cloneable {
 	private String courseName, courseDescription, department,
 					timeStart, weekDayHold ;

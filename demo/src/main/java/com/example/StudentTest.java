@@ -1,11 +1,8 @@
 /**
- * This class should implement main() method.
- *  In the body of the main(),  create an instance of Student
- *  another instance of Student class, 
- *  which should be a clone (deep copy) of the first student.
- * @author vuaivantrinhsjgmail.com
+ * @author Lam Vinh Vong
  *
  */
+package com.example;
 public class StudentTest {
 
 	

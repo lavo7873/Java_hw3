@@ -1,18 +1,9 @@
 /**
  * Exercise 1
- * Student.java
- * This class contains the following fields:
- * first name, last name, age, gpa, major, department.
- * This class also contains one attribute field of type Course.
- * Class Student contains getters and setters for all its attributes.
- * Implement a method called printInfo(), which will print the values
- * of the Student instance to command line/terminal window
- * (using built-in System.out.println() method).
- * As was the case with the class Course,
- * this class is able to undergo deep copy.
- * @author vuaivantrinhsjgmail.com
+ * @author Lam Vinh vong
  *
  */
+package com.example;
 public class Student implements Cloneable{
 	private String firstName, lastName, major, department;
 	private int age;
